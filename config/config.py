@@ -18,9 +18,9 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "25610347"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH", "c421be09ee9b9af3d13dbf9abb03483c")
 
 
 ## Get it from @Botfather in Telegram.
@@ -53,7 +53,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/vishalpandeynkp1/NOBITA-EXTRA-PLUGIN",
+    "https://github.com/NEO-BOT-HUB/Extra-Plugin",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -70,12 +70,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002223516578"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002512951867"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6972508083").split())
+    map(int, getenv("OWNER_ID", "7949478281").split())
 )  # Input type must be interger
 
 
@@ -96,7 +96,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/vishalpandeynkp1/VIPNOBITAMUSIC_REPO",
+    "https://github.com/NEO-O-P/VIP_NEO_REPO",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -114,15 +114,15 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/YOUR_CRUSH_CODER"
-)  # Example:- https://t.me/VIP_CREATORS
+    "SUPPORT_CHANNEL", "https://t.me/ABOUT_VENOM_OP"
+)  # Example:- https://t.me/ABOUT_VENOM_OP
 SUPPORT_GROUP = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/YOUR_CRUSH_CODER"
-)  # Example:- https://t.me/TG_FRIENDSS
+    "SUPPORT_CHANNEL", "https://t.me/NEO_BOT_SUPPORT"
+)  # Example:- https://t.me/NEO_BOT_SUPPORT
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/YOUR_CRUSH_CODER"
-)  # Example:- https://t.me/TG_FRIENDSS
+    "SUPPORT_CHANNEL", "https://t.me/FEELING_SMILEY"
+)  # Example:- https://t.me/FEELING_SMILEY
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
 
@@ -144,7 +144,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/vishalpandeynkp1/VIPNOBITAMUSIC_REPO")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/NEO-O-P/VIP_NEO_REPO")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -217,67 +217,67 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://iili.io/FRcO7WP.md.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://iili.io/FRSvSXs.md.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://iili.io/F5kvTXI.md.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://iili.io/F5kvTXI.md.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://iili.io/F5kvTXI.md.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://envs.sh/T74.jpg",
+    "https://iili.io/F5kvTXI.md.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://envs.sh/T74.jpg",
+    "https://iili.io/F5kvTXI.md.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://iili.io/F5kvTXI.md.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://iili.io/F5kvTXI.md.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://iili.io/F5kvTXI.md.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://iili.io/F5kvTXI.md.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://iili.io/F5kvTXI.md.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://envs.sh/T74.jpg",
+    "https://iili.io/F5kvTXI.md.jpg",
 )
 
 
