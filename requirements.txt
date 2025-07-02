@@ -9,6 +9,7 @@ ffmpeg-python
 gitpython
 hachoir
 heroku3
+httpx
 httpx[http2]
 lyricsgenius
 motor
