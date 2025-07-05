@@ -75,7 +75,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002512951867"))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7949478281").split())
+    map(int, getenv("OWNER_ID", "8140988754").split())
 )  # Input type must be interger
 
 
